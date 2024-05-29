@@ -1,0 +1,15 @@
+{
+	"name": "08-env",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+	  "dev": "node --env-file=.env --watch server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+	  "express": "^4.19.2"
+	}
+  }
